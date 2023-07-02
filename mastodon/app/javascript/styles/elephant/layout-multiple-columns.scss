@@ -1,5 +1,5 @@
 /* Mastodon Bird UI by @rolle@mementomori.social
-   1.5.7rc2 */
+   1.5.7 */
 
 /* CSS variables */
 :root {
@@ -141,7 +141,7 @@
 }
 
 /* High Contrast theme */
-body.theme-contrast.layout-multiple-columns {
+body.theme-elephant-contrast.layout-multiple-columns {
   --color-dim: #b8b3c0;
 
   /* Icons */
@@ -161,7 +161,7 @@ body.theme-contrast.layout-multiple-columns {
 }
 
 /* Light theme */
-body.theme-mastodon-light.layout-multiple-columns {
+body.theme-elephant-light.layout-multiple-columns {
   --color-bg: #fff;
   --color-fg: #000;
   --color-border: #e6e1ed;
@@ -2415,7 +2415,7 @@ body.embed .button.logo-button:hover,
     order: 7;
   }
 
-  .layout-single-colume .column-link[href='/follow_requests'] {
+  .layout-multiple-columns .column-link[href='/follow_requests'] {
     order: 8;
   }
 
